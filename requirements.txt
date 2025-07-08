@@ -61,7 +61,7 @@ marisa-trie==1.2.1
 Markdown==3.7
 markdown-it-py==3.0.0
 MarkupSafe==3.0.2
-matplotlib==3.9.2
+matplotlib
 mdurl==0.1.2
 ml-dtypes==0.4.1
 mpmath==1.3.0
@@ -72,12 +72,12 @@ namex==0.0.8
 nest-asyncio==1.6.0
 networkx==3.2.1
 nltk==3.9.1
-numpy==2.0.2
+numpy>=1.24,<2.0
 openai==1.55.1
 opt_einsum==3.4.0
 optree==0.13.1
 packaging==24.2
-pandas==2.2.3
+pandas
 patsy==1.0.1
 pillow==11.0.0
 plotly==5.24.1
@@ -100,8 +100,8 @@ rich==13.9.4
 sacremoses==0.1.1
 safetensors==0.4.5
 scikit-image==0.24.0
-scikit-learn==1.2.2
-scipy==1.10.1
+scikit-learn
+scipy>=1.10,<1.13
 seaborn==0.13.2
 semanticscholar==0.8.4
 sgmllib3k==1.0.0
